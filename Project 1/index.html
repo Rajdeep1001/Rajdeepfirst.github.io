@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Jyoti Food Store </title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+    body {
+        height: 853px;
+        width: 1280px;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/grocery.jpg');
+        color: white;
+
+    }
+
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        height: 53px;
+        width: 106px;
+        margin-top: 53px;
+        margin-left: 53px;
+        position: fixed;
+        cursor: pointer;
+
+
+
+    }
+
+    .left img {
+        width: 53px;
+        height: 53px;
+        margin-left: 19px;
+        margin-bottom: 3px;
+    }
+
+    .mid {
+        display: inline-block;
+        width: 20%;
+        margin: 56px auto;
+        border: 2px solid #726053;
+        width: 858px;
+        height: 46px;
+        border-radius: 40px;
+        background-color: #e6e8ef;
+        position: fixed;
+        margin-left: 18%;
+
+
+
+    }
+
+    ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .novbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        margin-right: 121px;
+        margin-left: 10px;
+
+    }
+
+    .navbar ul li {
+        color: red;
+    }
+
+
+    a:active {
+        color: red;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        /* float: right; */
+        height: 25px;
+        width: 145px;
+        margin-right: 0px;
+        margin-top: 67px;
+        margin-left: 87%;
+        position: fixed;
+
+
+    }
+
+    .btn1 {
+        border-radius: 10px;
+        cursor: pointer;
+        width: 70px;
+    }
+
+    .btn1:hover {
+        background-color: #bac9c9;
+    }
+
+
+    #four {
+        margin-right: 20px;
+    }
+
+    .left div {
+        width: auto;
+        color: white;
+        font-size: 21px;
+    }
+
+
+    .left div:hover {
+        color: #d7f7f7;
+    }
+    .container{
+        border: 2px solid #f5eaea;
+        width: 420px;
+        height: 420px;
+        display: block;
+        float: right;
+        margin-top: 321px;
+        margin-right: 600px;
+        padding: 35px;
+        position: relative;
+        margin-left: 50px;
+        border-radius: 20px;
+    }
+    .container:hover{
+        background-color: rgb(228, 156, 144);
+        border:2px solid black
+    }
+    div h1{
+        text-align: left;
+    }
+    input {
+        margin: 18px;
+        text-align: center;
+        margin-left: 116px;
+      l 
+    }
+    .container .submit {
+        margin-left: 160px;
+        margin-top: 45px
+    }
+    .container .submit:hover {
+        background-color: yellow;
+        border:2px solid rgb(5, 5, 248)
+    }
+    h1:hover{
+        color:chocolate
+    }
+    input:hover{
+        border: 2px solid green;
+    }
+</style>
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/grocerylogo.png" alt="" id="logo">
+            <div>Jyoti Food</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Items</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Price</a></li>
+                <li id="four"><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn1">Call Us</button>
+            <button class="btn1">Email Us</button>
+
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Know Our Product Price Now</h1>
+        <form action="notaction.php">
+            <div class="gogo">
+               <div><input type="text" placeholder="Product Name"></div> 
+                <div><input type="text" placeholder="Quantity"></div>
+                <div><input type="text" placeholder="Size"></div>
+                <div><input type="text" placeholder="Your Name"></div>
+                <div><input type="number" placeholder="Phone number"></div>
+                <div><button class="submit">Submit Now</button></div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
